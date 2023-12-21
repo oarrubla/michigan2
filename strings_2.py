@@ -45,3 +45,16 @@ print(greet.strip())
 line = "Please have a nice day"
 print(line.startswith("Please"))
 print(line.startswith("p"))
+
+#parsing and extracting
+data = "From stephen.marquard@uct.ac.za Sat Juan 5 09:14:16 2008"
+atpos = data.find("@") #desde aqui se hace el slicing
+print(atpos)
+
+sppos = data.find(" ",atpos) #hasta el espacio vacio se hace el slicing
+print(sppos)
+
+host = data[atpos+1 : sppos] #+1 para que no tome el @
+print(host)
+
+
