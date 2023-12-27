@@ -57,4 +57,8 @@ print(sppos)
 host = data[atpos+1 : sppos] #+1 para que no tome el @
 print(host)
 
+data= "  _practica_   "
+print(data)
+print(data.wstrip())
+
 
