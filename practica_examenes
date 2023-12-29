@@ -1,3 +1,0 @@
-data= "  _practica_   "
-print(data)
-print(data.wstrip())
